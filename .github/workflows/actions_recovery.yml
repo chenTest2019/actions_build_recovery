@@ -120,4 +120,4 @@ jobs:
         tag_name: ${{ github.run_id }}
         body: Android Third-Party Recovery built by ${{ steps.var.outputs.git_username }}
       env:
-        GITHUB_TOKEN: ${{ secrets.test-twrp }}
+        GITHUB_TOKEN: ${{ secrets.TEST_TWRP }}
